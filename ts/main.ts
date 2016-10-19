@@ -17,10 +17,11 @@ let PromesseDocumentPret = new Promise( (resolve) => {
 
 @Component({
     selector		: "demo-m2m",
-    template		: `<liste-choses titre="L3 liste"></liste-choses>`
+    template		: `<liste-choses titre="M2WIC"></liste-choses>`
 })
 class CompDemoM2M {}
 
+//module racine
 @NgModule({
     imports:      [ BrowserModule, ListeChosesModule ],
     declarations: [ CompDemoM2M ],
